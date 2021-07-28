@@ -1,0 +1,42 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "seven wonders",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "factsintent",
+          "slots": [],
+          "samples": [
+            "alexa please tell me a fact",
+            "give fact",
+            "tell fact",
+            "another one",
+            "one more",
+            "give me a fact about the seven wonders",
+            "tell me a fact about the seven wonders",
+            "give me a fact",
+            "Tell me a fact"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "8"
+}
